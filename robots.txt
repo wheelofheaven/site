@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://wheelofheaven.github.io/site/sitemap.xml
+Sitemap: https://wheelofheaven.github.io/sitemap.xml
