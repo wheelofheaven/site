@@ -6,9 +6,6 @@ titleSeparator = "|"
 titleAddition = "The democratization of the Age of Aquarius starts here."
 description = "The democratization of the Age of Aquarius starts here. Wheel of Heaven is a knowledge base exploring the working hypothesis that life on Earth was intelligently designed by an extraterrestrial civilization we collectively remember as the Elohim."
 
-## Documentation
-# docsVersion = "0.3"
-
 ## Open Graph
 images = ["wheel-of-heaven.png"]
 ogLocale = "en_US"
@@ -88,21 +85,23 @@ lastMod = false
   sectionNav = ["intro", "wiki", "resources", "medium", "topics"]
 
 [options]
-  lazySizes = true
-  clipBoard = true
-  instantPage = true
-  flexSearch = true
-  darkMode = true
   bootStrapJs = true
   breadCrumb = true
   highLight = true
-  kaTex = true
   multilingualMode = true
-  docsVersioning = false
-  fullWidth = false
+  fullWidth = true
   navbarSticky = true
-  toTopButton = true
 
 [menu]
   [menu.section]
     auto = true
+
+[hyas_images]
+  [hyas_images.defaults]
+    decoding = "async" # sync, async, or auto (default)
+    fetchpriority = "auto" # high, low, or auto (default) 
+    loading = "lazy" 
+    widths = [480, 576, 768, 1025, 1200, 1440] # [640, 768, 1024, 1366, 1600, 1920] for example
+    sizes = "auto" # 100vw (default), 75vw, or auto for example
+    process = "" # "fill 1600x900" or "fill 2100x900" for example
+    lqip = "16x webp q20" # "16x webp q20" or "21x webp q20" for example
